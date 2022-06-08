@@ -1,0 +1,20 @@
+Team Name: C-x Hughes
+
+Github Repository: https://github.com/CSE410HCI/cxhughes.git
+
+Zenhub Board: https://app.zenhub.com/workspaces/cse-370-sound-app-602acb32eeeec20015c1e0c3/board?repos=337266583
+
+Team Alternate Dispute Method: Rock-Paper-Scissors.
+If all else fails, we will have to resort to a deodorant eating contest.
+Whoever eats the most deodorant in the shortest amount of time.
+
+Completed Version: The final version of our project will be an ASMR sound application. Users will use the app to listen to
+sounds or asmr content. An extended version of the project will be to expand into user requests for voice acting content
+if possible. The app will also allow users to network with each other by following specific content creators and commenting
+on their work.
+
+The Typical User: Our project is geared towards relaxation. Some users may want to spend an afternoon relaxing on the couch 
+or take a nap so they would use our app to find some calming sounds. This could also be used to search for white noise to help
+with sleep. Another user could use the app to put on rainforest sounds in the background while they work or read a book.
+The app can also be used by people to calm their anxiety or stress if they find a specific sound or arms genre that helps
+them, therapeutically.

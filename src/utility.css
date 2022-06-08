@@ -1,0 +1,70 @@
+/*
+provides default stylings for components from figma
+import this file in new components using:
+import "./../utility.css"
+*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.gradient {
+  background: rgb(252,219,215);
+  background: linear-gradient(200deg, rgba(252,219,215,1) 0%, rgba(148,205,212,1) 100%);
+}
+
+input[type="text"],input[type="password"],input[type="email"], textarea {
+  border-radius: 10px;
+  border: none;
+  width: 98%;
+  height: 36px;
+  padding-left: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: bold;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  margin: 8px 0px 0px 0px;
+}
+
+aside {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 8px 0px;
+  color: #EB6658;
+}
+
+textarea {
+  width: 98%;
+}
+
+a {
+  color: #6994a2;
+}
+
+/* style all scrollbars */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

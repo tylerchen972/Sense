@@ -1,0 +1,210 @@
+.home_Text{
+  position: absolute;
+width: 377.1px;
+height: 42.13px;
+left: 283px;
+top: 157px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+}
+
+.following_Text{
+  position: absolute;
+width: 294.31px;
+height: 32.88px;
+left: 24.19px;
+top: 13.27px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28.0957px;
+line-height: 33px;
+/* identical to box height */
+color: #000000;
+}
+
+.channel{
+  position: absolute;
+width: 919px;
+height: 249px;
+left: 283px;
+top: 237px;
+overflow-x: scroll;
+
+background: #FFFFFF;
+border-radius: 7.80435px;
+}
+
+.pink_back{
+  position: absolute;
+  width: 1627.21px;
+  height: 248.96px;
+  left: 0px;
+  top: 0px;
+  
+  background: #FFF2F1;
+  border-radius: 7.80435px;
+}
+
+.audio_sneek_peek{
+  position: absolute;
+width: 163.11px;
+height: 163.11px;
+left: 36.68px;
+top: 55.41px;
+}
+
+.recommend_channel{
+  position: absolute;
+width: 919px;
+height: 249px;
+left: 283px;
+top: 515px;
+overflow-x: scroll;
+
+background: #FFFFFF;
+border-radius: 7.80435px;
+}
+
+.recent_posts{
+  position: absolute;
+width: 377.1px;
+height: 42.13px;
+left: 283px;
+top: 802px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+color: #000000;
+}
+
+.post_card{
+  position: absolute;
+width: 920px;
+height: 450px;
+left: 285px;
+top: 874px;
+}
+.card{
+  position: absolute;
+left: 0%;
+right: 8.37%;
+top: 0%;
+bottom: 26.89%;
+
+background: #FFFFFF;
+border: 3px solid #BDBDBD;
+box-sizing: border-box;
+border-radius: 13.9884px;
+}
+
+.eclipse{
+  position: absolute;
+  left: 3.7%;
+  right: 90.87%;
+  top: 5.33%;
+  bottom: 83.56%;
+  background: #40798C;
+
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.name_text{
+  position: absolute;
+  left: 11.2%;
+  right: 56.52%;
+  top: 7.78%;
+  bottom: 84.67%;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  
+  color: #000000;
+}
+
+.content_text{
+  position: absolute;
+left: 4.78%;
+right: 39.35%;
+top: 28.89%;
+bottom: 54.67%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+
+color: #000000;
+}
+.tags{
+  position: absolute;
+  left: 4.57%;
+  right: 39.35%;
+  top: 54.67%;
+  bottom: 31.56%;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  
+  color: #000000;
+}
+
+.heart{
+  position: absolute;
+left: 65.43%;
+right: 28.46%;
+top: 5.33%;
+bottom: 81.36%;
+}
+
+.comment{
+position: absolute;
+left: 73.15%;
+right: 20.71%;
+top: 4.67%;
+bottom: 81.99%;
+}
+
+.bookmark{
+  position: absolute;
+left: 81.27%;
+right: 12.72%;
+top: 4.67%;
+bottom: 82.27%;
+}
+
+.comment_box{
+  position: absolute;
+  left: -3%;
+  right: 40%;
+  top: 80%;
+  bottom: 0%;
+}
+
+.feed{
+  position: absolute;
+width: 920px;
+height: 450px;
+left: 284px;
+top: 1373px;
+}

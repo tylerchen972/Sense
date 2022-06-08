@@ -1,0 +1,475 @@
+.App {
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  color: black;
+}
+
+.deletePost {
+  width: 100%;
+}
+.deleteIcon {
+  float: right;
+}
+
+.settings {
+  width: 100%;
+}
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.link-button:hover,
+.link-button:focus,
+.link-button:active {
+  text-decoration: none;
+  outline: none;
+}
+
+
+/*
+.autocomplete input {
+  width: calc(300px + 1rem);
+}
+
+.autocomplete {
+  min-height: 165px;
+  border-style: solid;
+  border-color: black;
+}
+*/
+
+
+.App-link {
+  color: #09d3ac;
+}
+
+.profileForm button,
+.profileForm input {
+  width: 100%;
+  font-size: 20px;
+  border-width: 0px;
+}
+
+.postlist {
+  text-align: left;
+  background: #daeaea;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 10px;
+
+  width: 60%;
+  display: inline-flex;
+}
+
+
+.comments {
+  background: #40798c;
+  width: 90%;
+  display: block;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+
+.commentlist {
+  text-align: left;
+  background: #daeaea;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 12px;
+  width: 90%;
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.postbody {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.comment-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.comment-button {
+  background-color: #daeaea;
+  border: none;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.comment-upload {
+  background-color: #daeaea;
+  width: auto;
+}
+
+.upload {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.sidenav {
+  /* need to specify some position other than static, so height can apply.
+     Fixed works since it will stay fixed to the side - 0 from both left and top. */
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100px;
+
+  /* internally to this container, we want to use flex positioning of the menu elements */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  background-color: blue;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px;
+  margin-top: 40px;
+}
+
+.sidenav-icon {
+  width: 40px;
+  height: 40px;
+
+  margin-bottom: 15px;
+}
+
+.commentText {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.comment-indicator {
+  text-align: right;
+  width: 100%;
+  display: block;
+  float: right;
+  margin-top: 10px;
+}
+
+.comment-icon {
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+
+.comment-indicator-text {
+  background-color: lightblue;
+  color: black;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 120px;
+  padding: 5px;
+  float: right;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+/* The Modal (background) */
+.modal {
+  display: block;
+  position: fixed; /* Stay in place */
+  z-index: 0; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 1px 10px 20px 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  height: 200px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  line-height: 42px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.WrapImage {
+  background-color: rgba(196, 196, 196, 0.432);
+  border: 5px solid rgb(255, 255, 255);
+  height: 150px;
+  border-radius: 50%;
+  width: 150px;
+}
+
+#upload-photo {
+  display: none;
+  /* position: relative;
+  left: 100px;
+  top: -50px;
+  width: 100px;
+  height: 40px;
+  background: #efaea7;
+  box-shadow: 0px 3px 17px -8px #5c7178;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+  padding: 40px 0 0 0; */
+}
+
+.UploadButton {
+  display: none;
+  position: relative;
+  left: 100px;
+  top: -40px;
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+
+  padding: 5px;
+  box-sizing: border-box;
+  background: #efaea7;
+  border-radius: 10px;
+}
+
+.FriendButtons {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  left: 20px;
+  /* top: 300px; */
+  background: #c4c4c4;
+  border-radius: 14px;
+}
+
+.friends {
+  position: relative;
+  font-size: 25px;
+}
+
+.noDisplay {
+  background-color: white;
+  width: auto;
+  height: 50px;
+  border: none;
+  font-size: 25px;
+}
+
+.circle {
+  background-color: rgba(196, 196, 196, 0.432);
+  height: 40px;
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.timeline {
+  position: absolute;
+  font-size: 25px;
+  left: 15%;
+}
+
+.timelinefeed {
+  position: absolute;
+  /* width: 1200px;
+  height: 600px; */
+  left: 15%;
+  top: 20%;
+  /*
+  background: #f5d0cd;
+  border-radius: 14.1111px; */
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Custom Sense CSS */
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: black;
+  margin: 0px 0px 12px 0px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  /* font-weight: 500;20font-size: 36px; */
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.bio-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 0% 5%;
+  grid-template-areas: ". .";
+}
+
+.bio-lCol {
+  background-color: #daeaea;
+  border-radius: 10px;
+}
+
+.border {
+  border-style: solid;
+  border-color: black;
+}
+
+.delete {
+  font-size: 18px;
+  background-color: #efaea7;
+  border-radius: 14px;
+}
+.message {
+  position: relative;
+  width: fit-content;
+  height: 30px;
+  background: #fadcd9;
+  border-radius: 14px;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.username {
+  font-size: 12px;
+}
+
+.msgdel {
+  width: 15px;
+  height: 15px;
+  float: center;
+}
+
+.send {
+  position: relative;
+  width: fit-content;
+  height: 40px;
+  left: 96%;
+  background: #daeaea;
+  border-radius: 14px;
+}
+
+.createGroup {
+  width: fit-content;
+  height: 40px;
+  background: #daeaea;
+  border-radius: 14px;
+  float: center;
+  margin-right: 1%;
+}
+.deleteGroup {
+  width: fit-content;
+  height: 40px;
+  background: #efaea7;
+  border-radius: 14px;
+  float: center;
+  margin-left: 1%;
+}
+.goToFriend {
+  position: relative;
+  width: fit-content;
+  height: 40px;
+  left: 93%;
+  background: #daeaea;
+  border-radius: 14px;
+}

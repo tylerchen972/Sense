@@ -1,0 +1,84 @@
+.full_post {
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.card {
+    padding: 25px;
+    min-height: 300px;
+    width: 85%;
+    max-width: 700px;
+    margin: 0 auto;
+    border: 3px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.header {
+  display: table;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: table-cell;
+    vertical-align: middle; /*make avatar and username aligned together*/
+    border-radius: 360px;
+}
+
+.username {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 18px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.title {
+    margin-top: 12px;
+    max-width: 60%;
+    font-family: inherit;
+    font-size: 22px;
+}
+
+.description {
+    max-width: 60%;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.audio_controller {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: inherit;
+    height: 250px;
+    width: 250px;
+    bottom: 0;
+    right: 0;
+}
+
+.thumbnail {
+    position: absolute;
+    margin: inherit;
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    bottom: 0;
+    right: 0;
+    border-radius: 15px;
+    border: 3px solid #BDBDBD;
+}
+
+.play_pause_button {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    opacity: 75%;
+}

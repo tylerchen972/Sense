@@ -1,0 +1,42 @@
+
+/* styles for all devices: */
+.app_wrapper {
+  width: 100vw;
+  margin-top: 20px;
+}
+
+.app_content {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 768px) {
+  .app_content {
+    width: 90%;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .app_content {
+
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .app_content {
+
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .app_content {
+
+  }
+}

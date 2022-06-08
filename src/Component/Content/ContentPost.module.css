@@ -1,0 +1,5 @@
+.post__image_cover {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

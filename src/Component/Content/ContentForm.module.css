@@ -1,0 +1,161 @@
+
+.upload_method_wrapper {
+  background: rgba(255,255,255,.5);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 12px auto;
+  width: 91%;
+}
+
+.Gradient {
+  background: rgb(252,219,215);
+  background: linear-gradient(210deg, rgba(252,219,215,1) 20%, rgba(148,205,212,1) 100%);
+  padding: 28px 36px;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 18px;
+}
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin: 12px 0px;
+}
+
+input[type="text"] {
+  background: rgba(255,255,255,1);
+}
+
+
+.upload_method {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.upload_method li {
+  display: inline;
+  padding-right: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+
+.upload_method li button {
+  margin: 0px !important;
+  padding: 0px !important;
+  position: relative !important;
+  background: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+
+.button_active {
+  color: black;
+  background-color: #FCDBD7;
+  font-weight: bold;
+}
+
+.button_unactive {
+  color: rgba(0,0,0,.5);
+  background-color: #FCDBD7;
+  font-weight: bold;
+}
+
+.upload_audio label {
+  margin: 12px 0px;
+  border: 2px #2a6180 solid;
+  padding: 8px;
+  background: none;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #2a6180;
+}
+
+.upload_audio label img {
+  height: 18px;
+  width: 18px;
+  margin: 0 6px;
+}
+
+
+.upload_audio label input {
+  /* This styling makes the 'choose_img' input tag visually unperceivable by normal users
+  however it is still accessible for screen readers */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* 1 */
+  clip-path: inset(50%);
+  border: 0;
+}
+
+.record_audio button {
+  margin-right: 12px;
+  margin-bottom: 8px;
+  border: 2px #2a6180 solid;
+  padding: 8px;
+  background: none;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #2a6180;
+}
+
+.record_audio button:focus {
+  background: #2a6180;
+  color: white;
+}
+
+.audio_player {
+  width: 100%;
+  margin: 12px auto;
+}
+
+.upload_img {
+  text-align: center;
+}
+
+.choose_img {
+  /* This styling makes the 'choose_img' input tag visually unperceivable by normal users
+  however it is still accessible for screen readers*/
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+  border: 0;
+}
+
+.imgPlaceholder {
+  width: 200px;
+  height: 200px;
+  background: white;
+  object-fit: cover;
+}
+
+
+.description {
+  resize: none;
+  height: 68px;
+}
+
+.upload_post__button_wrapper div {
+  width: 100%;
+  height: 32px;
+  padding: 18px 0px;
+}
+
+.upload_post__button_wrapper div button {
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .Gradient {
+    width: 80%;
+  }
+}

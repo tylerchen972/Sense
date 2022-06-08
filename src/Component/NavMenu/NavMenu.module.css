@@ -1,0 +1,136 @@
+.navmenu {
+  width: 100%;
+  background-color: white;
+}
+
+.navmenu__wrapper {
+  width: 90%;
+  display: table;
+  margin: 0px auto;
+}
+
+.navmenu__wrapper img {
+  margin-top: 20px;
+  width: 100px;
+}
+.navmenu__item {
+  display: table-cell;
+}
+
+.navmenu__item ul{
+  float: right;
+  list-style-type: none;
+}
+.navmenu__item ul li{
+  display: inline-block;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.show {display:block;}
+
+.navmenu__link{
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: black;
+  hover: cursor;
+}
+/*logged in menu */
+.navmenu__item_login {
+  display: table-cell;
+  vertical-align: middle;
+}
+.navmenu__item_login:first-child {
+  width: 100px;
+}
+
+.navmenu__item_login img {
+  margin-top: 20px;
+}
+
+.navmenu__item_login ul{
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 28px;
+}
+.navmenu__item_login ul li{
+  display: inline-block;
+  padding: 0px 12px;
+}
+
+.navmenu__link_login {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.navmenu__item_login .user_menu {
+  float: right;
+}
+
+.navmenu__item_login .user_menu:first-child {
+
+}
+
+.updates {
+  width: 15px;
+  height: 25px;
+  margin: 0px !important;
+  position: relative;
+  top: 5px;
+  left: 25px;
+  float: right;
+}
+
+.navmenu__account_wrapper {
+  background: #D8ECEC;
+  padding: 6px;
+  min-width: 150px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.navmenu__account_dropdown {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 768px) {
+  .navmenu__wrapper {
+  width: 100%;
+  }
+  .navmenu__wrapper img {
+    margin-left: 18px;
+  }
+  .navmenu__item ul li {
+    margin: 0px;
+    margin-right: 12px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

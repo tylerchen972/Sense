@@ -1,0 +1,44 @@
+.main_logo {
+  font-family: 'Satisfy', cursive;
+  font-size: 64px;
+  font-weight: normal;
+  color: #2A6180;
+  margin-bottom: 0px;
+}
+
+.description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  color: #2A6180;
+  font-weight: normal;
+  margin: 0px 0px;
+}
+
+.home_header {
+  margin-bottom: 0px;
+}
+
+.recent {
+  margin-bottom: 36px;
+}
+
+.curly_line__left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+}
+
+.curly_line__right {
+  position: absolute;
+  z-index: 0;
+  top: 65px;
+  right: 200px;
+  width: 250px;
+}
+
+.message {
+  background: #FFF2F1;
+  border-radius: 20px;
+  margin-top: 24px;
+}

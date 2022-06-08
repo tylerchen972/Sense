@@ -1,0 +1,148 @@
+.profile_page__wrapper {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0.5%;
+}
+
+.profile_page {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+.profile_info__wrapper {
+  width: 40%;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.profile_info {
+  width: 100%;
+  max-width: 280px;
+  background: #D8ECEC;
+  height: 100%;
+  float: right;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+.profile_picture__wrapper img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: white;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.profile_username {
+  font-weight: bold;
+}
+
+.buttons__wrapper {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.following {
+  display: block;
+  margin-bottom: 8px;
+
+  width: 148px;
+  height: 36px;
+
+  background: #2A6180;
+  border: none;
+  border-radius: 5px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.follow {
+  display: block;
+  margin-bottom: 8px;
+
+  width: 148px;
+  height: 36px;
+
+  background: #6994a2;
+  border: none;
+  border-radius: 5px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.buttons__wrapper a button {
+  display: block;
+  margin-bottom: 8px;
+
+  width: 148px;
+  height: 36px;
+
+  background: #6994a2;
+  border: none;
+  border-radius: 5px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile_content__wrapper {
+  width: stretch;
+  background-color: white;
+  display: inline-block;
+  overflow-y: scroll;
+}
+
+.profile_content {
+  width: 80%;
+  margin: 0 auto;
+}
+.no_posts{
+  width: 100%;
+  text-align: center;
+  margin-top: 30vh;
+  color: black;
+}
+
+.no_posts p  {
+    font-size: 18px;
+}
+/* for smaller screens*/
+@media only screen and (max-width: 1000px) {
+  .profile_page {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  .profile_info__wrapper {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .profile_info {
+    background: #D8ECEC;
+    float: none;
+    max-width: none;
+    padding-top: 2px;
+    padding-bottom: 18px;
+  }
+  .profile_content__wrapper {
+    width: 100%;
+    display: block;
+    overflow-y: auto;
+  }
+  .no_posts {
+    margin-top: 60px;
+  }
+  .profile_content {
+    padding-top: 18px;
+  }
+
+}
